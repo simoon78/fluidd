@@ -1,0 +1,374 @@
+app:
+  bedmesh:
+    label:
+      flat_surface: Pokaż poziom bazowy
+      mesh_matrix: Siatka matrycy
+      probed_matrix: Matryca sondowania
+      profile_name: Nazwa profilu
+      remove_profile: Usuń profil %{name}
+      scale: Skaluj po min / max
+      wireframe: Szkielet
+    msg:
+      hint: >-
+        Gry zapisujesz pod inną nazwą niż %{name}, możesz wybrać by także usunąć profil
+        %{name}
+      not_found: Nie utworzona siatka stołu
+      not_loaded: Brak załadowanej siatki stołu
+    tooltip:
+      calibrate: Utwórz nową kalibrację, zapisując ją jako profil 'default'
+      delete: Usuń profil. Drukarka zostanie zrestartowana.
+      load: Wczytaj profil
+      save: >-
+        Zapisuje skalibrowany profil do printer.cfg. Drukarka zostanie zrestartowana.
+  chart:
+    label:
+      current: Bieżący
+      item: Nazwa
+      'Wyłącz': Wyłącz wykres
+      'Włącz': Włącz wykres
+      power: Moc
+      target: Docelowo
+    tooltip:
+      help: >-
+        Wciśnij shift by skalować.<br />Kliknij element z listy by dodać go do wykresu.<br
+        />Kliknij moc elementu by dodać ją do wykresu
+  console:
+    label:
+      auto_scroll: Automatyczne przewijanie
+      hide_temp_waits: Ukryj wpisy o temp.
+    placeholder:
+      command:  >-
+        '''tab'' autouzupełnia, wpisz ''help'' by uzyskać listę komend, 
+        ''kursory'' przewijają historię komend'
+  endpoint:
+    error:
+      cant_connect: >-
+        Coś poszło nie tak i fluidd nie może się połaczyć. Czy to na pewno poprawny adres?
+      cors_error: zabłokowane przez politykę CORS
+      cors_note: >-
+        To może oznaczać, że trzeba zmodyfikować konfgurację moonraker'a. 
+        Sprawdź w dokumentacji jak ustawić wiele drukarek <a href="%{url}"
+        target="_blank">here</a>
+    hint:
+      add_printer: np. http://fluiddpi.local
+    msg:
+      trouble: >-
+        Masz problemy? <a href="%{url}" target="_blank">Sprawdź tutaj</a> by uzyskać
+        więcej informację.
+    tooltip:
+      endpoint_examples: >-
+        Wpisz API URL.<br />Przykładowo ;<br
+        /><blockquote>http://fluidd.local, http://192.168.1.150</blockquote>
+  endstop:
+    label:
+      open: OTWARTY
+      triggered: ZAMKNIĘTY
+    msg:
+      subtitle: Kliknij ikonę odświeź by zaktualizować stan krańcówek
+  file_system:
+    filters:
+      label:
+        print_start_time: Odfiltruj wydrukowane
+        print_start_time_desc: Wydrukowane elementy zostaną ukryte
+    label:
+      dir_name: Nazwa katalogu
+      disk_usage: Zużycie dysku
+      downloaded: Pobrane
+      file_name: Nazwa pliku
+      transfer_rate: Poziom transferu
+      uploaded: Wgrane
+    msg:
+      confirm: Na pewno? Zostaną usunięte wszytkie pliki i katalogi.
+      not_found: Nie znaleziono plików
+      processing: Przetwarzanie
+    overlay:
+      label: <strong>Przeciąg</strong> plik tutaj
+    title:
+      add_dir: Dodaj katalog
+      add_file: Dodaj plik
+      download_file: Pobieranie pliku
+      keyboard_shortcuts: Skróty klawiaturowe
+      rename_dir: Zmień nazwę katalogu
+      rename_file: Zmień nazwę pliku
+      upload_file: Wgrywanie pliku | Wgrywanie plików
+    tooltip:
+      disabled: >-
+        Jobs require initial communication with klippy and a valid
+        virtual_sdcard path
+      low_on_space: Niski poziom miejsca na dysku
+  general:
+    btn:
+      add: Dodaj
+      add_dir: Dodaj folder
+      add_file: Dodaj plik
+      add_printer: Dodaj drukarkę
+      adjust_layout: Dostosuj układ panelu sterowania
+      all: Wszytko
+      calibrate: Kalibracja
+      cancel: Anuluj
+      clear_profile: Wyczyść profil
+      close: Zamknij
+      config_reference: Config Reference
+      download: Pobieranie
+      edit: Edycja
+      extrude: Extrude
+      heaters_off: Heaters off
+      load_all: Wczytaj wszsytko
+      pause: Pauza
+      preheat: Preheat
+      presets: Presets
+      quad_gantry_level: QGL
+      reboot: Reboot
+      remove: Usuń
+      remove_all: Usuń wszystko
+      rename: Zmień nazwę
+      reprint: Powtórny wydruk
+      reset_file: Reset pliku
+      reset_layout: Reset wyglądu
+      restart_firmware: Restart firmwaru
+      restart_service_klipper: Restart Klippera
+      restart_service_moonraker: Restart Moonrakera
+      restart_service_webcamd: Restart Webcama
+      resume: Przywróć
+      retract: Retract
+      save: Zapisz
+      save_as: Zapisz jako
+      save_restart: Zapisz i zrestartuj
+      send: Wyślij
+      shutdown: Wyłącz
+      socket_refresh: Wymuś odświeżenie
+      upload: Wgraj
+      upload_print: Wgraj i drukuj
+      view: Podgląd
+    error:
+      app_setup_link: >-
+        Fluidd wymagania programu są <a target="_blank"
+        href="%{url}">tutaj.</a>
+      app_warnings_found: '%{appName} - wystąpiły ostrzeżenia.'
+      components_config: >-
+        Moonraker konfiguracja pluginu do przejrzenia <a target="_blank"
+        href="%{url}">tutaj.</a>
+      failed_components: >-
+        Moonraker has failed plugins, please check your logs, update your
+        configuration and restart moonraker.
+    label:
+      accel_to_decel: Accel to Decel
+      acceleration: Akceleracja
+      add_camera: Dodaj Kamerę
+      add_category: Dodaj kategorię
+      add_preset: Dodaj ustawienia
+      api_url: API URL
+      confirm: Potwierdź
+      edit_camera: Edytuj kamerę
+      edit_preset: Edytuj ustawienia
+      extrude_length: Extrude Length
+      extrude_speed: Extrude Speed
+      flow: Flow
+      free: free
+      high: High
+      host: Host
+      layout: Layout
+      longest_job: Najdłuższe zadanie
+      low: Low
+      move_macro: Move macro %{name}
+      name: Nazwa
+      'off': 'Off'
+      power: Power
+      printers: Drukarki
+      requested_speed: Requested Speed
+      save_as: Zapisz jako]
+      services: Services
+      speed: Szybkość
+      sqv: Square Corner Velocity
+      total_filament: Ogólne zużycie filamentu
+      total_filament_avg: Śr. na wydruk
+      total_jobs: Ilość wydruków
+      total_print_time: Czas wszystkich wydruków
+      total_print_time_avg: Śr. na wydruk
+      total_time: Całkowity czas
+      total_time_avg: Śr. na wydruk
+      uncategorized: Brak kategorii
+      used: użyty
+      variance: Zmienność
+      velocity: Prędkość
+      z_offset: Offset Z
+    simple_form:
+      error:
+        arrayofnums: Tylko liczby
+        exists: Już istnieje
+        invalid_url: Niepoprawny URL
+        max: Maks %{max}
+        min: Min %{min}
+        min_or_0: Min %{min} lub 0
+        required: Wymagane
+      msg:
+        confirm: Na pewno?
+        confirm_reboot_host: Na pewno? Host zostanie zrebootowany.
+        confirm_shutdown_host: Na pewno? Host zostanie wyłączony.
+    table:
+      header:
+        actions: Actions
+        end_time: Ended
+        estimated_time: Szacowany czas
+        filament: Filament
+        filament_used: Użyty filament
+        filament_weight_total: Waga filamentu
+        first_layer_bed_temp: Stół - temp. pierwszej warstwy
+        first_layer_extr_temp: Ekstruder - temp. pierwszej warstwy
+        first_layer_height: Wysokośc pierwszej warstwy
+        height: Wysokość
+        last_printed: Ostatni wydruk
+        layer_height: Wysokość warstwy
+        modified: Zmodyfikowano
+        name: Nazwa
+        print_duration: Czas wydruku
+        size: Rozmiar
+        slicer: Slicer
+        slicer_version: Slicer - wersja
+        start_time: Rozpoczęto
+        status: Status
+        total_duration: Całkowity Czas wydruku
+    title:
+      add_printer: Dodaj drukarkę
+      bedmesh: Siatka stołu
+      bedmesh_controls: Ustawienia siatki stołu
+      camera: Kamera | Kamery
+      config_files: Pliki konfiguracyjne
+      configure: System
+      console: Konsola
+      endstops: Krańcówki
+      fans_outputs: Fans & Outputs
+      history: Historia
+      home: Home
+      jobs: Zadania
+      limits: Limity drukarki
+      macros: Makra
+      runout_sensors: Runout Sensors
+      settings: Opcje
+      stats: Statystyki drukarki
+      status: Status
+      system_control: Kontrola systemu
+      temperature: Thermals
+      tool: Tool
+      tune: Tune
+    tooltip:
+      estop: Awaryjny Stop
+      reload_klipper: Przeładuj konfigurację klippera.
+      reload_restart_klipper: Przeładuj konfigurację klippera wraz z restartem hosta.
+      restart_klipper: Restart usługi klippera na hoscie.
+  history:
+    msg:
+      confirm: Na pewno? Historia i statystyki druku zostaną usunięte.
+  printer:
+    state:
+      busy: Zajęta
+      complete: Ukończono
+      idle: Bezczynna
+      loading: Wczytywanie
+      paused: Zpauzowano
+      printing: Drukowanie
+      ready: Gotowa
+      standby: Czuwanie
+    status:
+      duration: przebieg
+      duration_total: przebieg i łacznie
+      time_left: pozostało
+      used_filament: użyty filament
+  setting:
+    btn:
+      add_camera: Dodaj kamerę
+      add_thermal_preset: Dodaj ustawienia
+      reset: Reset
+      select_theme: Wybierz motyw
+    camera_type_options:
+      mjpegadaptive: MJPEG Adaptive
+      mjpegstream: MJPEG Stream
+      video: Kamera IP
+    label:
+      all_off: All off
+      all_on: All on
+      camera_fillspace: Fill space
+      camera_fillspace_help: With only one enabled camera, fill the dashboard camera space.
+      camera_flip_x: Flip horizontally
+      camera_flip_y: Flip vertically
+      camera_stream_type: Stream type
+      camera_url: Camera Url
+      dark_mode: Dark mode
+      default_extrude_length: Default extrude length
+      default_extrude_speed: Default extrude speed
+      default_toolhead_move_length: Default toolhead move length
+      default_toolhead_xy_speed: Default toolhead XY speed
+      default_toolhead_z_speed: Default toolhead Z speed
+      enable: Enable
+      enable_notifications: Enable notifications
+      fps_target: FPS Target
+      gcode_coords: Use GCode Coordinates
+      invert_x_control: Invert X control
+      invert_y_control: Invert Y control
+      invert_z_control: Invert Z control
+      language: Display Language
+      primary_color: Primary color
+      printer_name: Printer Name
+      reset: Reset settings
+      thermal_preset_name: Preset Name
+      time_estimates: Time estimates
+      toggle: Toggle
+      z_adjust_values: Z Adjust values
+    timer_options:
+      duration: Duration only
+      duration_description: Similar to a klipper LCD, this only shows duration with no estimates.
+      filament: Filament Estimation
+      filament_description: >-
+        Takes used filament vs estimated filament to estimate total duration.<br
+        /> More accurate over time.
+      file: File Estimation
+      file_description: >-
+        Takes progress percent, and duration to estimate total duration.<br />
+        More accurate over time.
+      slicer: Slicer
+      slicer_description: Uses slicer estimates for display. You must enable this in your slicer.
+    title:
+      camera: Kamera | Kamery
+      general: Ogólne
+      macros: Makra
+      theme: Motyw
+      thermal_presets: Thermal Presets
+      tool: Tool
+    tooltip:
+      gcode_coords: Use GCode position instead of toolhead position on dashboard
+  socket:
+    msg:
+      connecting: Łączenie z moonraker'em...
+      no_connection: Brak połącznienia z moonraker'em. Spradź status moonraker'a i / lub odśwież.
+  tool:
+    btn:
+      home_x: X
+      home_y: 'Y'
+    tooltip:
+      extruder_disabled: extruder disabled, below min_extrude_temp (%{min}<small>°C</small>)
+      home_xy: Home XY
+      home_z: Home Z
+  version:
+    btn:
+      check_for_updates: Sprawdź aktualizacje
+      finish: Finish
+      update: Update
+    label:
+      commit_history: Commit History
+      commits_on: commits on
+      committed: Committed
+      dirty: DIRTY
+      invalid: INVALID
+      os_packages: Pakiety systemowe
+      package_list: Lista pakietów
+      up_to_date: AKTUALNE
+    status:
+      finished: Zaktualizowano
+      updating: Aktualizowanie...
+    title: Aktualizacje oprogramowania
+    tooltip:
+      commit_history: Zapisz historię
+      dirty: indicates a detached head, not on master or an invalid origin
+      invalid: indicates local changes to the repo
+      packages: Pakiety
+      release_notes: Informacie o wersji
