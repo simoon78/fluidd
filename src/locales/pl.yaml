@@ -167,17 +167,17 @@ app:
       free: free
       high: High
       host: Host
-      layout: Layout
+      layout: Układ
       longest_job: Najdłuższe zadanie
       low: Low
-      move_macro: Move macro %{name}
+      move_macro: Przenieś makro %{name}
       name: Nazwa
       'off': 'Off'
       power: Power
       printers: Drukarki
       requested_speed: Requested Speed
-      save_as: Zapisz jako]
-      services: Services
+      save_as: Zapisz jako
+      services: Usługi
       speed: Szybkość
       sqv: Square Corner Velocity
       total_filament: Ogólne zużycie filamentu
@@ -207,8 +207,8 @@ app:
         confirm_shutdown_host: Na pewno? Host zostanie wyłączony.
     table:
       header:
-        actions: Actions
-        end_time: Ended
+        actions: Akcje
+        end_time: Zakończono
         estimated_time: Szacowany czas
         filament: Filament
         filament_used: Użyty filament
@@ -243,14 +243,14 @@ app:
       jobs: Zadania
       limits: Limity drukarki
       macros: Makra
-      runout_sensors: Runout Sensors
+      runout_sensors: Sensory wyczerpania
       settings: Opcje
       stats: Statystyki drukarki
       status: Status
       system_control: Kontrola systemu
       temperature: Thermals
       tool: Tool
-      tune: Tune
+      tune: Ustaw
     tooltip:
       estop: Awaryjny Stop
       reload_klipper: Przeładuj konfigurację klippera.
@@ -299,19 +299,19 @@ app:
       default_toolhead_move_length: Default toolhead move length
       default_toolhead_xy_speed: Default toolhead XY speed
       default_toolhead_z_speed: Default toolhead Z speed
-      enable: Enable
-      enable_notifications: Enable notifications
-      fps_target: FPS Target
+      enable: Włącz
+      enable_notifications: Włącz notyfikacje
+      fps_target: Ilość klatek
       gcode_coords: Use GCode Coordinates
       invert_x_control: Invert X control
       invert_y_control: Invert Y control
       invert_z_control: Invert Z control
-      language: Display Language
-      primary_color: Primary color
-      printer_name: Printer Name
-      reset: Reset settings
-      thermal_preset_name: Preset Name
-      time_estimates: Time estimates
+      language: Język
+      primary_color: Kolor główny
+      printer_name: Nazwa drukarki
+      reset: Reset ustawień
+      thermal_preset_name: Nazwa presetu
+      time_estimates: Szacowany czas
       toggle: Toggle
       z_adjust_values: Z Adjust values
     timer_options:
@@ -332,7 +332,7 @@ app:
       general: Ogólne
       macros: Makra
       theme: Motyw
-      thermal_presets: Thermal Presets
+      thermal_presets: Presety temperatur
       tool: Tool
     tooltip:
       gcode_coords: Use GCode position instead of toolhead position on dashboard
@@ -351,8 +351,8 @@ app:
   version:
     btn:
       check_for_updates: Sprawdź aktualizacje
-      finish: Finish
-      update: Update
+      finish: Zakończ
+      update: Aktualizuj
     label:
       commit_history: Commit History
       commits_on: commits on
